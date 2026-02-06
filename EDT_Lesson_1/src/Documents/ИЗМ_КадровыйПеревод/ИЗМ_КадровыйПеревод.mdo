@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8345b56b-0dd6-437b-9c7b-d78c0243f404">
+  <producedTypes>
+    <objectType typeId="9a6fa182-4faa-492b-8537-af5ad4a83355" valueTypeId="97ad31ed-4588-443f-9084-dfee8aeeed7c"/>
+    <refType typeId="ab3b1b7e-08ff-4800-9e65-87185bec0b8b" valueTypeId="bc5373f4-1a3a-4106-8735-7208d4a33787"/>
+    <selectionType typeId="2e312410-a112-4eeb-be4d-4274f0b7a885" valueTypeId="cd445a10-c022-4398-bcb6-f90ea07d4690"/>
+    <listType typeId="7c5413c9-f73a-4671-9224-4dd0d9237fa4" valueTypeId="6e9b2942-5b72-4d6e-bf69-4c49afbc3fff"/>
+    <managerType typeId="92f9f554-d8ad-4a1a-a13d-bb7d2b5ef1d8" valueTypeId="c250ef86-4b31-40cc-ab6b-6be824047bc7"/>
+  </producedTypes>
+  <name>ИЗМ_КадровыйПеревод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровый перевод</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ИЗМ_КадровыйПеревод.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ИЗМ_КадровыйПеревод.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="7851350f-7470-4196-9079-711c6ec7fe52">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="33c0af60-a49b-42a4-b529-a55f23cc2241">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="0ff2d3ad-a039-408d-92dd-8d1f3b950fa2">
+    <producedTypes>
+      <objectType typeId="76e74f7f-f8cb-40a7-a6a2-00d1d02faec8" valueTypeId="e017ace5-9c27-4a86-9985-35936f430e03"/>
+      <rowType typeId="029def21-11ba-48c7-9b52-d25d3b840bde" valueTypeId="343cc563-c3da-4186-89d5-3e2da623a56e"/>
+    </producedTypes>
+    <name>Должности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должности</value>
+    </synonym>
+    <attributes uuid="2e337501-e023-481e-9456-64d5953edf20">
+      <name>Должность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Должность</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ИЗМ_Должности</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
