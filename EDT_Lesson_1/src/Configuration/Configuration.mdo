@@ -1227,6 +1227,7 @@
   <documents>Document.РеализацияТоваровУслуг</documents>
   <documents>Document.ИЗМ_Доставка</documents>
   <documents>Document.ИЗМ_ПриемНаРаботу</documents>
+  <documents>Document.ИЗМ_КадровыйПеревод</documents>
   <documentJournals>DocumentJournal.Деньги</documentJournals>
   <enums>Enum.ВариантыОтображенияМеток</enums>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
