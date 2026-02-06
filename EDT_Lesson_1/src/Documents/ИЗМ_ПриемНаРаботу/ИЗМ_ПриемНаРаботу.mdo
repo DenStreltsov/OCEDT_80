@@ -57,7 +57,10 @@
         <value>Должность</value>
       </synonym>
       <type>
-        <types>CatalogRef.ИЗМ_Должности</types>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
